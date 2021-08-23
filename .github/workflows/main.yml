@@ -11,5 +11,5 @@ jobs:
       - name: Merge Conflict finder
         uses: olivernybroe/action-conflict-finder@v2.0
         with:
-          exclude_dir: "foo"
-          excludes: "foo"
+          exclude_dir: "fo*"
+          excludes: "fo*"
